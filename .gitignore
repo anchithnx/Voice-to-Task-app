@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-tarball.log
+
+# Android native build outputs and local configuration
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/GeneratedPluginRegistrant.java
+*.apk
+*.aar
+*.keystore
+
+# iOS native build outputs and CocoaPods
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/build-configuration.json
+ios/main.jsbundle
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata/
+*.xcworkspace
+!**/*.xcworkspace/contents.xcworkspacedata
+
+# Metro Bundler and temporary files
+.expo/
+.metro/
+.bundle/
+temp/
+
+# OS-specific overrides
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# TypeScript declaration cache
+*.tsbuildinfo
+
+# IDE/Editors configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scratch scripts and temporary testing files
+scratch/

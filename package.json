@@ -1,0 +1,26 @@
+{
+  "name": "voice_to_task",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "react-native-audio-recorder-player": "^3.6.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-sqlite-storage": "^6.0.1",
+    "whisper.rn": "^0.3.0"
+  },
+  "devDependencies": {
+    "@react-native/babel-preset": "^0.87.0",
+    "@react-native/metro-config": "^0.87.0",
+    "@types/react": "^18.2.0",
+    "@types/react-native-sqlite-storage": "^6.0.5",
+    "typescript": "^5.3.0"
+  }
+}
